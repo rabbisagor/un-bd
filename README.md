@@ -1,11 +1,53 @@
-<div align="center">
+# Unseen Bangladesh (অদেখা বাংলাদেশ) 🌲🇧🇩
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+একটি আধুনিক, রেসপনসিভ ভ্রমণ ব্লগিং প্ল্যাটফর্ম — যা গিটহাব (GitHub) এবং ভার্সেল (Vercel) এ তাৎক্ষণিকভাবে ডেপলয় করার উপযোগী করে তৈরি করা হয়েছে।
 
-  <h1>Built with AI Studio</h2>
+ইনস্পায়ারেশন: [unseenbangladesh.com](https://unseenbangladesh.com/)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+---
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🚀 বৈশিষ্ট্যসমূহ (Key Features)
 
-</div>
+- **ভ্রমণ ব্লগ পাবলিশিং (Post Creator)**: ব্রাউজার থেকেই ছবি আপলোড, দিনভিত্তিক ভ্রমণ পরিকল্পনা (Itinerary), রুট ডিরেকশন, বাজেট হিসাব ও সতর্কবার্তা সহ নতুন ব্লগ পোস্ট তৈরি ও প্রকাশ করার সম্পূর্ণ সুবিধা।
+- **লোকাল পারসিস্টেন্স ও ব্যাকআপ**: তৈরি করা সকল পোস্ট ব্রাউজারে সুরক্ষিত থাকে এবং যেকোনো সময় এক ক্লিকে সম্পূর্ণ ডেটা JSON ফাইলে এক্সপোর্ট/ইমপোর্ট করা যায়।
+- **বিভাগভিত্তিক ফিল্টারিং**: চট্টগ্রাম, সিলেট, বরিশাল, খুলনা, রাজশাহী, রংপুর, ঢাকা এবং ময়মনসিংহের জন্য আলাদা ক্যাটাগরি ফিল্টার।
+- **আধুনিক ডিজাইন ও বাংলা ফন্ট**: 'Hind Siliguri' ও 'Plus Jakarta Sans' এর চমৎকার সংমিশ্রণ, মোবাইল রেসপনসিভ ও ডোমেইন-নেটিভ লুক।
+- **ভার্সেল ও গিটহাব রেডি**: `vercel.json` কনফিগারেশন প্রি-সেট করা রয়েছে।
+
+---
+
+## 📦 গিটহাবে পুশ ও ভার্সেলে ডেপলয় করার পদ্ধতি (Deployment Guide)
+
+### ১. গিটহাবে পুশ করুন (GitHub Push)
+আপনার টার্মিনালে নিচের কমান্ডগুলো চালান:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit of Unseen Bangladesh travel website"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/unseen-bangladesh.git
+git push -u origin main
+```
+
+### ২. ভার্সেলে ১-ক্লিকে ডেপলয় করুন (Deploy to Vercel)
+1. [vercel.com](https://vercel.com) এ যান এবং আপনার GitHub অ্যাকাউন্ট দিয়ে লগইন করুন।
+2. **"Add New Project"** এ ক্লিক করুন।
+3. আপনার `unseen-bangladesh` রিপোজিটরিটি সিলেক্ট করুন।
+4. ফ্রেমওয়ার্ক হিসেবে **Vite** সিলেক্ট থাকবে, সরাসরি **"Deploy"** বাটনে ক্লিক করুন।
+5. মাত্র ১ মিনিটের মধ্যে আপনার ওয়েবসাইটটি লাইভ হয়ে যাবে এবং আপনি একটি ফ্রি `.vercel.app` লিংক পাবেন।
+
+---
+
+## 🛠️ লোকাল ডেভেলপমেন্ট (Local Setup)
+
+```bash
+# ডিপেন্ডেন্সি ইনস্টল করুন
+npm install
+
+# ডেভেলপমেন্ট সার্ভার চালু করুন
+npm run dev
+
+# প্রোডাকশন বিল্ড তৈরি করুন
+npm run build
+```

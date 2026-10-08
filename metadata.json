@@ -1,0 +1,6 @@
+{
+  "name": "Unseen Bangladesh - Travel Blog & Publishing Platform",
+  "description": "আনসিন বাংলাদেশ স্টাইলের প্রিমিয়াম ভ্রমণ ব্লগিং প্ল্যাটফর্ম — গিটহাব ও ভার্সেল এ সরাসরি ডেপলয় করার উপযোগী।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
